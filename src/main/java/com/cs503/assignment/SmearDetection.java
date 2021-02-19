@@ -3,6 +3,7 @@ package com.cs503.assignment;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import javax.imageio.ImageIO;
 
@@ -24,10 +25,9 @@ public class SmearDetection {
         /**
          *  Assigned path for the folder to be accessed
          */
-        // update the path before running this
-        String smearDirectory = "C:/Users/Nikhil/Downloads/sample_drive/sample_drive/cam_0/";
 
-
+        String smearDirectory = System.getProperty("user.dir").replace("\\", "/")+"/src/main/java/com/cs503/assignment/InputImages/";
+        System.out.println(smearDirectory);
         File directory = new File(smearDirectory);
 
         // Used to list all the files in File[]
