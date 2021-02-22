@@ -8,8 +8,8 @@
 
 
 ### Steps to Run the project 
-+ Import the project in Intellij as a  [gradle project](https://www.jetbrains.com/help/idea/gradle.html#gradle_import_project_start).
-+ Open SmearDetection.java and update the smearDirectory(this the path with all the sample images specific to a camera)
++ Import the project in Intellij as a  [gradle project](https://www.jetbrains.com/help/idea/gradle.html#gradle_import_project_start). Gradle downloads all the necessary dependencies for us and this might take a while.
++ Open SmearDetection.java and update the smearDirectory in line 28(this is the path with all the sample images specific to a camera)
 + Run the SmearDetection.java file 
 
 ### Notes
