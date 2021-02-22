@@ -25,17 +25,18 @@ public class SmearDetection {
         /**
          *  Assigned path for the folder to be accessed
          */
-
-        String smearDirectory = System.getProperty("user.dir").replace("\\", "/")+"/src/main/java/com/cs503/assignment/InputImages/";
+        String smearDirectory = "C:/Users/Nikhil/Downloads/sample_drive/sample_drive/cam_4/";
+        //String smearDirectory = System.getProperty("user.dir").replace("\\", "/")+"/src/main/java/com/cs503/assignment/InputImages/";
         System.out.println(smearDirectory);
         File directory = new File(smearDirectory);
 
         // Used to list all the files in File[]
         File[] files_array = directory.listFiles();
         ArrayList filelist = new ArrayList();
-        int lenght = files_array.length;
+        int length = files_array.length;
+
         // using the jpg images shared by professor
-        for (int j = 0; j < lenght; j++) {
+        for (int j = 0; j < length; j++) {
             if (files_array[j].isFile()) {
                 if (files_array[j].getName().endsWith(".jpg")) {
                     filelist.add(files_array[j].getName());
