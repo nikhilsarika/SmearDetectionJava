@@ -8,6 +8,7 @@
 
 
 ### Steps to Run the project 
++ Import the project in Intellij as a  [gradle project](https://www.jetbrains.com/help/idea/gradle.html#gradle_import_project_start).
 + Open SmearDetection.java and update the smearDirectory(this the path with all the sample images specific to a camera)
 + Run the SmearDetection.java file 
 
@@ -21,3 +22,10 @@
 + Intermediate.jpg
 + FinalImage.jpg
 + averageimage.jpg
+
+### Team members
++ Venkata Akshith Reddy Kasireddy (A20455209)
++ Sai Vishal Kodimela (A20453006)
++ Nikhil Sarika (A20470289)
++ Souporno Ghosh (A20439047)
+
